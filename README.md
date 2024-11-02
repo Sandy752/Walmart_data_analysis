@@ -3,7 +3,6 @@
 ## Description of Key Directories
 
 ```
-│ 
 ├── data/ 
 │ ├── raw/ # Original, unprocessed data files 
 │ ├── processed/ # Cleaned and transformed data files 
