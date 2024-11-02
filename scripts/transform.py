@@ -34,8 +34,6 @@ def transform_data(df):
     # Changing data types
     df['unit_price'] = df['unit_price'].str.replace('$', '').astype(float)
     df['quantity'] = df['quantity'].astype(int)
-    df['date'] = pd.to_datetime(df['date'], format='%d/%m/%y')
-    df['time'] = pd.to_timedelta(df['time'])
 
     # Feature engineering: adding a new column total_price
     df['total_price'] = df['quantity'] * df['unit_price']
