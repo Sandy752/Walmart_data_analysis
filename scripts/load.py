@@ -12,7 +12,7 @@ def load_data_to_sql(file_path,table_name,connection_string):
         print('Connection established successfully')
 
         df=pd.read_csv(file_path)
-        df.to_sql(name=table_name,con=conn,if_exists='append',index=False)
+        df.to_sql(name=table_name,con=conn,if_exists='replace',index=False)
         print(f'Data inserted into {table_name} successfully.')
 
     except Exception as e:
