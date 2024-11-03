@@ -1,3 +1,8 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/Sandy752/Walmart_data_analysis?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Sandy752/Walmart_data_analysis?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/Sandy752/Walmart_data_analysis?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sandy752/Walmart_data_analysis?color=red&style=for-the-badge)
+
 # Walmart Data Analysis
 
 ## Description of Key Directories
